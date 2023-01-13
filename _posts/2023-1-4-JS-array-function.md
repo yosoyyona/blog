@@ -7,9 +7,9 @@ Yesterday I learned map, reduce & filter methods of array function in the class.
 Recapping the contents I stuck in a problem.
 
 
-💪 Exercise
-
-const menu = [
+# 💪 Exercise
+```javascript
+  const menu = [
   { name: 'Carrots', calories: 150 },
   { name: 'Steak', calories: 350 },
   { name: 'Broccoli', calories: 120 },
@@ -20,28 +20,30 @@ const menu = [
 // your code:
  
 console.log(averageCalories); // 278
+  ```
 
 
-🐲 My code
-
-const averageCalories = menu.reduce(function(sum, food) 
+# 🐲 My code
+```javascript
+  const averageCalories = menu.reduce(function(sum, food) 
 {
     return Math.round((sum + food.calories) / menu.length)
 }, 0)
-
+  ```
 
 📝 But my result is 116. What did I miss? 🤔 
 
 
-
-✨ Solved!
-
+# ✨ Solved!
+```javascript
 const totalCalories = menu.reduce(function(sum, food) 
 {
     return Math.round(sum + food.calories)
 }, 0)
 
 const averageCalories = totalCalories / menu.length
+  ```
+
 
 
 📝 Below there were similar exercise&solution and I looked up.
