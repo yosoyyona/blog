@@ -4,7 +4,9 @@ title: About
 permalink: /about/
 ---
 
-🤖 Part-time Web Dev Bootcamp @ Ironhack 
+👩🏻‍💻 Learning by making errors and mistakes
+
+🤖 Graduated Web Dev Bootcamp @ Ironhack 
 
 ### More Information
 
